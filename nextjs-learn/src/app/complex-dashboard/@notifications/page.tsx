@@ -1,8 +1,14 @@
-import Card from '@/componenets/card'
-import React from 'react'
+import Card from '@/componenets/card';
+import React from 'react';
+import Link from 'next/link';
+
+
 
 export default function Notifications() {
   return (
-    <Card>Notifications</Card>
+    <Card>
+      <div>Notifications</div>
+      <Link href="/complex-dashboard/archived">Archived</Link>
+    </Card>
   )
 }

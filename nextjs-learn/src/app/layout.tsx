@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>,
+      <body>
         <header style={{
           backgroundColor:"lightblue", 
           padding:"1rem",
