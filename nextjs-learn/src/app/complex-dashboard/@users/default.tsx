@@ -1,4 +1,4 @@
-import Card from '@/componenets/card'
+import Card from '@/componets/card'
 import React from 'react'
 
 export default function DefaultUserAnalytics() {
