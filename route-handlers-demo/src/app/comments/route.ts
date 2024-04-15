@@ -1,8 +1,12 @@
 import { comments } from "./data";
-import { type NextRequest  } from "next/server"; 
 
 
 
+export async function GET() {
+debugger;
+    return Response.json(comments);
+    
+}
 
 
 export async function POST(request: Request) {
@@ -44,7 +48,7 @@ export async function DELETE(
 
     );
      
-    const deletedComment = comments [index];
+    const deletedComment = comments [index]
     comments.splice(index, 1)
     return Response.json(deletedComment);
 }
